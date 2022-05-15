@@ -12,14 +12,14 @@ body {
 #step--three--process-chart {
 }
 
-.NewGrid > div {
+.Flowchart > div {
   height: 60px;
   box-sizing: border-box;
   border: 5px solid #fff;
   margin-bottom: 1em;
 }
 
-.NewGrid {
+.Flowchart {
   overflow: hidden;
   margin: 20px;
   display: flex;
@@ -29,7 +29,7 @@ body {
   justify-content: flex-start;
 }
 
-.NewGrid--Rail--Item {
+.Flowchart--Node {
   height: 50px;
   box-sizing: border-box;
   border: 2px solid purple;
@@ -90,7 +90,14 @@ body {
     flex-basis: 80%;
     max-width: 80%;
   }
-  .NewGrid *[tablet='80'] {
+
+  .Flowchart *[tablet='40'] {
+    flex-basis: 40%;
+    max-width: 40%;
+  }
+
+
+  .Flowchart *[tablet='80'] {
     flex-basis: 80%;
     max-width: 80%;
   }
@@ -100,8 +107,11 @@ body {
   #step--two--process--chart {
     margin-left: 0em;
   }
-
   .Grid *[phone='100'] {
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+  .Flowchart *[phone='100'] {
     flex-basis: 100%;
     max-width: 100%;
   }
