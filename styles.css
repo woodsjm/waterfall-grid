@@ -13,15 +13,17 @@ body {
 }
 
 .Flowchart > div {
-  height: 60px;
+  height: 5em;
   box-sizing: border-box;
   border: 5px solid #fff;
   margin-bottom: 1em;
+  display: flex;
+  align-items: center;
 }
 
 .Flowchart {
   overflow: hidden;
-  margin: 20px;
+  margin: 1em;
   display: flex;
   flex: 0 1 auto;
   flex-direction: column;
@@ -29,10 +31,11 @@ body {
   justify-content: flex-start;
 }
 
-.Flowchart--Node {
-  height: 50px;
+.Flowchart > div > div {
+  height: 4em;
   box-sizing: border-box;
   border: 2px solid purple;
+  
   /* margin-bottom: 1em; */
 }
 
@@ -83,6 +86,11 @@ body {
     flex-basis: 70%;
     max-width: 70%;
   }
+
+  .Flowchart *[book='20'] {
+    flex-basis: 20%;
+    max-width: 20%;
+  }
 }
 /* Tablet */
 @media (max-width: 800px) {
@@ -90,6 +98,12 @@ body {
     flex-basis: 80%;
     max-width: 80%;
   }
+
+  .Flowchart *[tablet='30'] {
+    flex-basis: 30%;
+    max-width: 30%;
+  }
+
 
   .Flowchart *[tablet='40'] {
     flex-basis: 40%;
