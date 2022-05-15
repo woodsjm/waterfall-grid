@@ -48,4 +48,4 @@ body {
     @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
     .List{ font-family: 'Open Sans', sans-serif; }
 
-#Step--Name { font-size: 1.5em; color: #000}
+#Step--Name { font-size: 1.5em; color: #000; margin-top: 1em; margin-bottom: 1em;}
