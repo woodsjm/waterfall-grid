@@ -4,7 +4,7 @@ body {
 
 .List { font-size: 0.7rem; padding: 20px;}
 /* General */
-    .List > ul{ padding: 0; margin: 0; background: rgb(194, 194, 194); overflow: hidden; border-radius: 5px;margin: 0; padding: 0px; border:1px solid #ddd; }
+    .List > ul{ padding: 0; margin: 0; background: rgb(194, 194, 194); overflow: hidden; border-radius: 2px;margin: 0; padding: 0px; border:1px solid #ddd; }
     .List > ul > li{ position: relative; display: block; }
     .List > ul > li > .List{ padding: 0%; background: transparent;}
     .List > ul > li > .List > ul{ border:none; border-radius: 0px; padding: 10px 0px; position: relative; padding-left: 40px; overflow: hidden; }
