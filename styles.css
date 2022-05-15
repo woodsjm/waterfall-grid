@@ -13,7 +13,6 @@ body {
 }
 
 .NewGrid > div {
-  background: blue;
   height: 60px;
   box-sizing: border-box;
   border: 5px solid #fff;
@@ -25,9 +24,16 @@ body {
   margin: 20px;
   display: flex;
   flex: 0 1 auto;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+}
+
+.NewGrid--Rail--Item {
+  height: 50px;
+  box-sizing: border-box;
+  border: 2px solid purple;
+  /* margin-bottom: 1em; */
 }
 
 /* Grid */
@@ -46,8 +52,8 @@ body {
   display: flex;
   flex: 0 1 auto;
   flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
 }
 /* Width Direct */
 
@@ -81,6 +87,10 @@ body {
 /* Tablet */
 @media (max-width: 800px) {
   .Grid *[tablet='80'] {
+    flex-basis: 80%;
+    max-width: 80%;
+  }
+  .NewGrid *[tablet='80'] {
     flex-basis: 80%;
     max-width: 80%;
   }
