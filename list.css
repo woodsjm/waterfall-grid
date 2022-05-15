@@ -27,9 +27,9 @@
         .List > ul > li > .List > ul > li > p:after,.List > ul > li > .List > ul > li > a:after{ content: "";  box-sizing: border-box; width:21px;height: 1px; background: rgb(121, 121, 121); border-right: 0; border-top: 0; position: absolute; left: -21px; top: 50%;margin-top: 1px; }
         .List > ul > li > .List > ul > li > p:before,.List > ul > li > .List > ul > li > a:before{ content: ""; height:7px; box-sizing: border-box; width: 7px;z-index: 10; box-shadow: 0px 2px 2px rgba(0,0,0,0.4); background: rgb(95, 95, 230); border:2px solid #fff; border-radius: 120px; position: absolute; left: -23px; top: 50%; margin-top: -3px; }
 /* Placeholder */
-    .List .Placeholder{ padding: 20%; color: rgba(0, 0, 0, 0.543);text-align: center;  content: "TEST CONTENT"; display: block;}
-    .List .Placeholder:before{ content: "TEST CONTENT";letter-spacing: 2px; font-size: 15px;}
-    .List .Placeholder:after{ content: "CSS INDEPENDIENT"; display: block; font-size: 11px; color: rgba(0, 0, 0, 0.4);}
+    .List .Placeholder{ padding: 2%; color: rgba(0, 0, 0, 0.543);text-align: center;  content: ""; display: block;}
+    .List .Placeholder:before{ content: "";letter-spacing: 2px; font-size: 15px;}
+    .List .Placeholder:after{ content: ""; display: block; font-size: 11px; color: rgba(0, 0, 0, 0.4);}
 /* Responsive */
     @media (max-width: 400px) 
         {
