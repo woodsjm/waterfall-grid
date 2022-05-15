@@ -1,3 +1,7 @@
+body {
+    background: #f1f1f1;
+  }
+
 .List { font-size: 0.7rem; padding: 20px;}
 /* General */
     .List > ul{ padding: 0; margin: 0; background: rgb(194, 194, 194); overflow: hidden; border-radius: 5px;margin: 0; padding: 0px; border:1px solid #ddd; }
@@ -43,3 +47,5 @@
 /* Fonts */
     @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
     .List{ font-family: 'Open Sans', sans-serif; }
+
+#Step--Name { font-size: 1.5em; color: #000}
