@@ -17,13 +17,15 @@ body {
   box-sizing: border-box;
   border: 5px solid #fff;
   margin-bottom: 1em;
+  margin-left: 1em;
+  margin-right: 1em;
   display: flex;
   align-items: center;
 }
 
 .Flowchart {
   overflow: hidden;
-  margin: 1em;
+  margin: 0 auto;
   display: flex;
   flex: 0 1 auto;
   flex-direction: column;
@@ -35,10 +37,9 @@ body {
   height: 4em;
   box-sizing: border-box;
   border: 2px solid purple;
-  
+
   /* margin-bottom: 1em; */
 }
-
 
 /* Width Direct */
 
@@ -51,15 +52,26 @@ body {
   flex-basis: 60%;
   max-width: 60%;
 }
+
+.Flowchart[screen='50'] {
+  max-width: 50%;
+}
+
+
 /* Desk */
 @media (max-width: 1200px) {
   .Grid > *[desk='60'] {
     flex-basis: 60%;
     max-width: 60%;
   }
+
   .Grid > *[desk='65'] {
     flex-basis: 65%;
     max-width: 65%;
+  }
+
+  .Flowchart[desk='50'] {
+    max-width: 50%;
   }
 }
 /* Book */
@@ -67,6 +79,10 @@ body {
   .Grid *[book='70'] {
     flex-basis: 70%;
     max-width: 70%;
+  }
+
+  .Flowchart[book='50'] {
+    max-width: 50%;
   }
 
   .Flowchart *[book='20'] {
@@ -81,17 +97,19 @@ body {
     max-width: 80%;
   }
 
+  .Flowchart[tablet='75'] {
+    max-width: 75%;
+  }
+
   .Flowchart *[tablet='30'] {
     flex-basis: 30%;
     max-width: 30%;
   }
 
-
   .Flowchart *[tablet='40'] {
     flex-basis: 40%;
     max-width: 40%;
   }
-
 
   .Flowchart *[tablet='80'] {
     flex-basis: 80%;
@@ -107,6 +125,11 @@ body {
     flex-basis: 100%;
     max-width: 100%;
   }
+
+  .Flowchart[phone='100'] {
+    max-width: 100%;
+  }
+
   .Flowchart *[phone='100'] {
     flex-basis: 100%;
     max-width: 100%;
