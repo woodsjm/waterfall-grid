@@ -13,7 +13,7 @@ body {
     .List > ul > li:first-child > p,.List > ul > li:first-child > a{ border-top:none}
     .List > ul > li > a:hover{ cursor: pointer; background-color:#eee; }
     /* Badges */
-        .List > ul > li > a > b{ margin-left: auto; margin-right:2rem; padding: 0px 0.4rem;  font-weight: normal; color: #29252C; box-shadow: 0px 0px 0px 2px #D8E9F0; background: #D8E9F0;  border-radius: 1px; }
+        .List > ul > li > a > b{ margin-left: auto; margin-right:2rem; padding: 0px 0.4rem;  font-weight: normal; color: white; box-shadow: 0px 0px 0px 2px #33425B; background: #33425B;  border-radius: 1px; }
         .List > ul > li > p > b{ margin-left: auto; padding: 0px 0.4rem; box-shadow: 0px 0px 0px 5px rgb(95, 95, 230); background: rgb(95, 95, 230);  font-weight: bolder; color: #fff;  color: white;  border-radius: 1px; }
     /* Icons */
         .List > ul > li > p > i:first-child,.List > ul > li > a > i:first-child{ text-align: center; background: transparent;font-size:1.4em; margin-right: 10px; color: #aaa; }
