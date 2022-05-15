@@ -39,25 +39,7 @@ body {
   /* margin-bottom: 1em; */
 }
 
-/* Grid */
-/* Remember that this CSS is contingent on invalid HTML. If you want to make it valid, use the prefix data. */
-/* General */
-.Grid > div {
-  background: blue;
-  height: 60px;
-  box-sizing: border-box;
-  border: 5px solid #fff;
-  margin-bottom: 1em;
-}
-.Grid {
-  overflow: hidden;
-  margin: 20px;
-  display: flex;
-  flex: 0 1 auto;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: space-evenly;
-}
+
 /* Width Direct */
 
 /* Dinamic */
